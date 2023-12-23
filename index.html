@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    
+    <img id="user_card" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <img id="user_card1" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <img id="user_card2" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <img id="user_card3" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <img id="user_card4" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <hr>
+    <img id="computer_card" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <img id="computer_card1" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <img id="computer_card2" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <img id="computer_card3" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <img id="computer_card4" src="" alt="" style="height: 200px; width: 200px; display: inline;">
+    <script>
+        //images targil 1
+        let my_card = parseInt(prompt("enter a  num"))
+        let my_card1 = parseInt(prompt("enter a  num"))
+        let my_card2 = parseInt(prompt("enter a  num"))
+        let my_card3 = parseInt(prompt("enter a  num"))
+        let my_card4 = parseInt(prompt("enter a  num"))
+
+        let computer_card = parseInt(Math.random() * 14) + 2
+        let computer_card1 = parseInt(Math.random() * 14) + 2
+        let computer_card2 = parseInt(Math.random() * 14) + 2
+        let computer_card3 = parseInt(Math.random() * 14) + 2
+        let computer_card4 = parseInt(Math.random() * 14) + 2
+
+        console.log(computer_card)
+
+        switch (my_card){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:     
+            case 9:
+            case 10:document.getElementById("user_card").src = 'images/' + my_card + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("user_card1").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("user_card1").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("user_card1").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("user_card1").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("user_card1").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("your selection is out of range")
+            document.write("<br>")
+        }
+
+        switch (computer_card){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7: 
+            case 8:
+            case 9:
+            case 10:document.getElementById("computer_card").src = 'images/' + computer_card + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("computer_card").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("computer_card").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("computer_card").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("computer_card").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("computer_card").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("out of range")
+        }
+
+        switch (my_card1){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7: 
+            case 8:
+            case 9:
+            case 10:document.getElementById("user_card1").src = 'images/' + my_card1 + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("user_card1").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("user_card1").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("user_card1").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("user_card1").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("user_card1").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("your selection is out of range")
+            document.write("<br>")
+        }
+
+        switch (computer_card1){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7: 
+            case 8:
+            case 9:
+            case 10:document.getElementById("computer_card1").src = 'images/' + computer_card1 + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("computer_card1").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("computer_card1").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("computer_card1").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("computer_card1").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("computer_card1").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("out of range")
+        }
+
+        switch (my_card2){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7: 
+            case 8:
+            case 9:
+            case 10:document.getElementById("user_card2").src = 'images/' + my_card2 + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("user_card2").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("user_card2").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("user_card2").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("user_card2").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("user_card2").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("your selection is out of range")
+            document.write("<br>")
+        }
+
+        switch (computer_card2){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:     
+            case 9:
+            case 10:document.getElementById("computer_card2").src = 'images/' + computer_card2 + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("computer_card2").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("computer_card2").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("computer_card2").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("computer_card2").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("computer_card2").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("out of range")
+        }
+
+        switch (my_card3){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7: 
+            case 8:
+            case 9:
+            case 10:document.getElementById("user_card3").src = 'images/' + my_card3 + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("user_card3").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("user_card3").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("user_card3").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("user_card3").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("user_card3").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("your selection is out of range")
+            document.write("<br>")
+        }
+
+        switch (computer_card3){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7: 
+            case 8:
+            case 9:
+            case 10:document.getElementById("computer_card3").src = 'images/' + computer_card3 + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("computer_card3").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("computer_card3").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("computer_card3").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("computer_card3").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("computer_card3").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("out of range")
+        }
+
+        switch (my_card4){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8: 
+            case 9:
+            case 10:document.getElementById("user_card4").src = 'images/' + my_card4 + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("user_card4").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("user_card4").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("user_card4").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("user_card4").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("user_card4").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("your selection is out of range")
+            document.write("<br>")
+        }
+
+        switch (computer_card4){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7: 
+            case 8:
+            case 9:
+            case 10:document.getElementById("computer_card4").src = 'images/' + computer_card4 + '_of_hearts.png'
+                break;
+            case 11:document.getElementById("computer_card4").src = 'images/j_of_hearts.png'
+                break;
+            case 12:document.getElementById("computer_card4").src = 'images/Q_of_hearts.png' 
+                break;        
+            case 13:document.getElementById("computer_card4").src = 'images/K_of_hearts.png'
+                break;
+            case 14:document.getElementById("computer_card4").src = 'images/A_of_hearts.png' 
+                break;
+            case 15:document.getElementById("computer_card4").src = 'images/JOKER.png'
+                break;
+            default:
+            document.write("out of range")
+        }
+
+        document.write("<br>")
+
+        let my_score = 0
+        let computer_score = 0
+
+        if (my_card > computer_card){
+            document.write("you win round 1")
+            my_score++
+        }
+        else if(my_card < computer_card){
+            document.write("computer won round 1") 
+            computer_score++
+        }else{
+            document.write("equal")
+        }
+
+        document.write("<br>")
+
+        if (my_card1 > computer_card1){
+            document.write("you win round 2")
+            my_score++
+        }
+        else if(my_card1 < computer_card1){
+            document.write("computer won round 2") 
+            computer_score++
+        }else{
+            document.write("equal")
+        }
+
+        document.write("<br>")
+
+        if (my_card2 > computer_card2){
+            document.write("you win second round 3")
+            my_score++
+        }
+        else if(my_card2 < computer_card2){
+            document.write("computer won round 3") 
+            computer_score++
+        }else{
+            document.write("equal")
+        }
+
+        document.write("<br>")
+
+        if (my_card3 > computer_card3){
+            document.write("you win round 4")
+            my_score++
+        }
+        else if(my_card3 < computer_card3){
+            document.write("computer won round 4") 
+            computer_score++
+        }else{
+            document.write("equal")
+        }
+
+        document.write("<br>")
+
+        if (my_card4 > computer_card4){
+            document.write("you win round 5")
+            my_score++
+        }
+        else if(my_card4 < computer_card4){
+            document.write("computer won round 5") 
+            computer_score++
+        }else{
+            document.write("equal")
+        }
+
+        document.write("<br><br>")
+        document.write("computer score is" + computer_score )
+        document.write("<br>")
+        document.write("my score is " + my_score )
+        document.write("<br><br>")
+
+        if (my_score > computer_score){
+            document.write("you won")
+        }else{
+            document.write("computer won")
+        }
+
+    </script>
+</body>
+</html>
